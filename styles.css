@@ -316,6 +316,7 @@ html {
   .nav a {
     font-size: 14px;
     padding: 20px;
+    color: #FE3636; 
   }
 
   .nav a:active {
