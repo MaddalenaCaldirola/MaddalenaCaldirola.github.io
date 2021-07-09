@@ -314,6 +314,30 @@ html {
 
   .nav a {
     font-size: 14px;
-    border:1px solid white;
     padding: 20px;
   }
+
+  .nav a:active {
+    color: black;
+    background-color:#EFEFEF;
+  }
+
+  /*presentation*/
+  .presentation-container{
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  /*works*/
+  .works-container{
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  /*contacts*/
+  .contacts-container{
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+}
