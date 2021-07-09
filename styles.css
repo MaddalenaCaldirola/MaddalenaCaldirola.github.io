@@ -306,6 +306,8 @@ html {
 @media only screen and (max-width: 400px) {
   h1 h3 h4 {
     font-size: 18px;
+    padding-right: 38px; 
+    padding-left: 38px; 
   }
 
   h2 p {
@@ -322,6 +324,11 @@ html {
     background-color:#EFEFEF;
   }
 
+/*header*/
+  .header-container{
+    width:100%;
+  }
+	
   /*presentation*/
   .presentation-container{
     padding-left: 36px;
