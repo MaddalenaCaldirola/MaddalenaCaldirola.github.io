@@ -313,7 +313,8 @@ html {
 
  
  h1 {
-  font-size: 24px; 
+  font-size: 28px;
+  line-height: 42px;
 }
 
 h2 {
@@ -372,13 +373,16 @@ p {
 
 /*presentation*/
 .presentation-container{
-  padding:56px 30px;
+  padding: 60px 30px; 
   width: 100%
 }
 
 /*social*/
 .social-container{
-  padding: 56px 30px; 
+  padding-right:60px; 
+  padding-left: 60px; 
+  padding-top:0px; 
+  padding-bottom: 30px; 
   width: 100%;
 }
 
@@ -408,7 +412,7 @@ p {
 }
 
 .card {
-  width: 325px;
+  width: 300px;
   background: #fff;
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
   margin-bottom: 50px;
@@ -457,7 +461,7 @@ p {
 /*contacts*/
 .contacts-container{
   background: white;
-  padding: 48px 30px; 
+  padding: 60px 30px; 
   width: 100%;
 }
 
@@ -467,7 +471,7 @@ p {
    width:60px;
    height:60px;
    bottom:40px;
-   right:52px;
+   right:40px;
 }
 
 .float:active{
