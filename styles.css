@@ -335,6 +335,7 @@ p {
 .nav {
     display: flex;
     position: fixed; 
+    width: 100%;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -389,7 +390,7 @@ p {
 
 /*works*/
 .works-container {
-  padding: 56px 30px; 
+  padding: 40px 30px; 
   width: 100%
 }
 
@@ -464,7 +465,7 @@ p {
    width:60px;
    height:60px;
    bottom:40px;
-   right:60;
+   right:52px;
 }
 
 .float:active{
