@@ -281,11 +281,7 @@ html {
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
-	
-  /*barra*/
-  .responsive {
-     transform: scale(3,3);
-  }
+
 	
   /*presentation*/
   .presentation-container{
@@ -340,6 +336,13 @@ p {
   font-size: 14px;
 }
 
+	
+  /*barra*/
+  .responsive {
+      width:100%;
+      height: 100px; 
+      object-fit:cover; 
+  }
 
 /*nav*/
 .nav {
