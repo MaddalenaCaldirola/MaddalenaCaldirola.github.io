@@ -371,16 +371,9 @@ p {
 
 /*barra*/
  .responsive {
-     transform: scale(3,3);
+     height: 100px; 
      max-width: 400px; 
-  }
-
-.barra {
-   max-width: 400px; 
-  }
-
-.barra-bottom {
-   max-width: 400px; 
+     object-fit: cover; 
   }
 
 
