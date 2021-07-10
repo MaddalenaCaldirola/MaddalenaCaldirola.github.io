@@ -319,10 +319,12 @@ html {
 
 h2 {
   font-size: 18px;
+  line-height: 27px;
 }
 
 h3 {
   font-size: 18px;
+  line-height: 27px;
 }
 
 p {
@@ -368,7 +370,7 @@ p {
 
 /*foto*/
 .foto-container {
-   padding: 120px 30px;
+   padding: 140px 0;
 }
 
 /*presentation*/
@@ -480,17 +482,8 @@ p {
 
 /*pagine progetti*/
 .title-container {
-  display: flex;
-  height: 251px;
-  background: #56AE8B;
   align-items: center;
-  justify-content:flex-start;
-}
-
-.title-container h2 {
-  padding-left: 140px;
-  color: white;
-  font-size: 48px;
+  justify-content:center
 }
 	
 }
