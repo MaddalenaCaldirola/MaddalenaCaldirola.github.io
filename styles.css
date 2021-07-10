@@ -369,14 +369,6 @@ p {
  }
 
 
-/*barra*/
- .responsive {
-     height: 100px; 
-     width:100%; 
-     object-fit: cover; 
-  }
-
-
 /*header*/
 .header-container {
    padding: 60p 40px;
