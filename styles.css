@@ -356,7 +356,7 @@ p {
     width: 100%;
     list-style: none;
     margin: 0;
-    padding: 20px; 0;
+    padding: 0;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -374,7 +374,6 @@ p {
  .nav a:active {
     color: black;
     background-color:#EFEFEF; 
-    padding: 20px 0; 
  }
 
 
