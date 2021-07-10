@@ -267,17 +267,13 @@ html {
 
 /*pagine progetti*/
 .title-container {
-  display: flex;
-  height: 251px;
   background: #56AE8B;
-  align-items: center;
-  justify-content:flex-start;
+  text-align: center;
+  padding: 125px; 
 }
 
 .title-container h2 {
-  padding-left: 140px;
   color: white;
-  font-size: 48px;
 }
 
 
@@ -495,13 +491,8 @@ p {
 
 /*pagine progetti*/
 .title-container {
-  align-items: center;
-  justify-content:center
-}
-
-.title-container h2 {
-   font-size: 14px;
-   line-height: 21px;
+  padding: 60px 40px; 
+  width: 100%;
 }
 	
 }
