@@ -369,6 +369,20 @@ p {
  }
 
 
+/*barra*/
+ .responsive {
+     transform: scale(3,3);
+  }
+
+.barra {
+   max-width: 400px; 
+  }
+
+.barra-bottom {
+   max-width: 400px; 
+  }
+
+
 /*header*/
 .header-container {
    padding: 60p 40px;
