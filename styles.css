@@ -429,6 +429,10 @@ p {
   transition: 0.3s;
   padding-bottom: 20px;
 }
+	
+.card:hover {
+  pointer-events: none;
+}	
 
 .card-header {
   text-align: center;
@@ -492,6 +496,11 @@ p {
 .title-container {
   align-items: center;
   justify-content:center
+}
+
+.title-container h2 {
+   font-size: 14px;
+   line-height: 21px;
 }
 	
 }
