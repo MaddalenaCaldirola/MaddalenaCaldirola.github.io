@@ -281,7 +281,12 @@ html {
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
-
+  /*barra*/
+  .responsive {
+      width:100%;
+      height: 100px;
+      object-fit:cover;
+  }
 	
   /*presentation*/
   .presentation-container{
@@ -374,7 +379,7 @@ p {
 
 /*header*/
 .header-container {
-   padding: 60p 40px;
+   padding: 40p 40px;
    width:100%;
 }
 
