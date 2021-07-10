@@ -394,11 +394,8 @@ p {
 
 /*works*/
 .works-container {
-  padding-top:30px;
-  padding-bottom: 30px;
   padding-right: 50px; 
   padding-left: 50px; 
-  width: 100%;
 }
 
 .works-heading {
@@ -408,11 +405,7 @@ p {
 }
 
 .row {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .card {
@@ -472,8 +465,8 @@ p {
 /*back-to-top-button*/
 .float{
    position:fixed;
-   width:35px;
-   height:35;
+   width:40px;
+   height:40px;
    bottom:40px;
    right:60;
 }
