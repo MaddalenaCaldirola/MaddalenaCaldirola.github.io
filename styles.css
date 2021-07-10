@@ -223,7 +223,6 @@ html {
 .card-body .btn:hover {
   background: #9DDDC3;
   color: black;
-  font-weight: bold;
 }
 
 .card:hover {
@@ -466,7 +465,6 @@ p {
 .card-body .btn:active {
   background: #9DDDC3;
   color: black;
-  font-weight: bold;
 }
 
 /*contacts*/
