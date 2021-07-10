@@ -103,7 +103,11 @@ html {
 /*barra*/
 .barra {
   padding-top: 54px;
-  width: 100%; 
+}
+
+.responsive {
+  width: 100%;
+  min-height: auto;
 }
 
 /*header*/
@@ -276,15 +280,18 @@ html {
   font-size: 48px;
 }
 
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-}
 
 
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
+	
+  /*barra*/
+  .responsive {
+     transform: scale(3,3);
+  }
+	
   /*presentation*/
   .presentation-container{
     padding-left: 60px;
@@ -299,6 +306,10 @@ html {
 
   .row {
     align-items: center;
+  }
+  
+  .card {
+    min-width: 300px;
   }
 
   /*contacts*/
@@ -315,8 +326,7 @@ html {
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
 
- 
- h1 {
+h1 {
   font-size: 28px;
   line-height: 42px;
 }
@@ -337,8 +347,6 @@ p {
 
 
 /*nav*/
-
-
 .nav {
     display: flex;
     position: fixed; 
@@ -364,6 +372,12 @@ p {
     color: black;
     background-color:#EFEFEF;
  }
+
+	
+/*barra*/
+  .responsive {
+     transform: scale(3,3);
+  }
 
 /*header*/
 .header-container {
