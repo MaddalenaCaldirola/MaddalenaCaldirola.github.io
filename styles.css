@@ -303,52 +303,75 @@ html {
 
 }
 
+
+
+
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
 
  
-  /*nav*/
-  .nav a {
-    font-size: 14px;
-    padding: 20px;
-    color: #FE3636; 
-  }
+ h1 {
+  font-size: 24px;
+}
 
-  .nav a:active {
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+}
+
+
+/*nav*/
+.nav a {
+  font-size: 14px;
+ }
+
+ .nav a:active {
     color: black;
     background-color:#EFEFEF;
-  }
+ }
 
-  /*header*/
-  .header-container {
-    padding: 36px; 
-    width: 100%; 
-  }
-	
-  .header-container h1 {
-    font-size: 18px; 
-  }
+/*header*/
+.header-container {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   width:100%;
+}
 
-  .header-container h2 {
-    font-size: 14px; 
-  }
-	
-  /*presentation*/
-  .presentation-container{
-    padding: 36px;
-    width: 100%;
-  }
-	
-  .presentation-container p {
-    font-size: 14px; 
-  }
+/*foto*/
+.foto-container {
+   padding: 120px 30px;
+}
+
+/*presentation*/
+.presentation-container{
+  padding:48px 30px;
+  width: 100%
+}
+
+/*social*/
+.social-container{
+  padding: 48px 30px; 
+  width: 100%;
+}
+
+.social-container a:active {
+  filter: drop-shadow(4px 4px 2px #56AE8B);
+  transform: scale(1.05);
+}
+
 
 /*works*/
 .works-container {
-  background: #56AE8B;
-  padding-top:60px;
-  padding-bottom: 60px;
-  width: 100%
+  padding-top:30px;
+  padding-bottom: 30px;
+  width: 100%;
 }
 
 .works-heading {
@@ -371,6 +394,7 @@ html {
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
   margin-bottom: 50px;
   transition: 0.3s;
+  padding-bottom: 20px;
 }
 
 .card-header {
@@ -386,7 +410,7 @@ html {
 .card-body {
   text-align: center;
   margin-left: 10px;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
 .card-body p {
@@ -411,15 +435,35 @@ html {
   font-weight: bold;
 }
 
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.5);
+/*contacts*/
+.contacts-container{
+  background: white;
+  padding: 48px 30px; 
+  width: 100%;
 }
 
-  /*contacts*/
-  .contacts-container{
-    padding-left: 36px;
-    padding-right: 36px;
-  }
-
+/*back-to-top-button*/
+.float{
+   bottom:40px;
+   right:50px;
 }
+
+.float:active{
+   background: #9DDDC3;
+}
+
+/*pagine progetti*/
+.title-container {
+  display: flex;
+  height: 251px;
+  background: #56AE8B;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.title-container h2 {
+  padding-left: 140px;
+  color: white;
+  font-size: 48px;
+}
+
