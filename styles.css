@@ -332,11 +332,78 @@ html {
     padding-right: 36px;
   }
 
-  /*works*/
-  .works-container{
-    padding-left: 36px;
-    padding-right: 36px;
-  }
+/*works*/
+.works-container {
+  background: #56AE8B;
+  padding-top:60px;
+  padding-bottom: 60px;
+}
+
+.works-heading {
+  text-align: center;
+  color:white;
+  margin-bottom: 32px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 265px;
+  height: 265px;
+  background: #fff;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+
+.card-header {
+  text-align: center;
+  background: #EFEFEF;
+}
+
+.card-header h4 {
+  font-size: 18px;
+  padding: 20px;
+}
+
+.card-body {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px; 
+}
+
+.card-body p {
+  font-size: 14px;
+  padding: 20px;
+}
+
+.card-body .btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: #56AE8B;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.card-body .btn:active {
+  background: #9DDDC3;
+  color: black;
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.5);
+}
 
   /*contacts*/
   .contacts-container{
