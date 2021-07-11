@@ -470,6 +470,7 @@ p {
 .works-container {
   padding-top: 60px;
   padding-bottom: 30px; 
+  width: 100%; 
 }
 
 .works-heading {
@@ -479,6 +480,7 @@ p {
 }
 
 .row {
+  display: flex; 
   align-items: center;
   padding: 0; 
   flex-wrap: nowrap; 
