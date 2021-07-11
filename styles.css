@@ -128,11 +128,7 @@ html {
   margin: 5px;
 }
 
-@media screen and (max-width: 960px){
-
-body {
-  overflow:hidden;
-}
+@media only screen and (max-width: 960px){
 	
   .nav-links{
     display: none;
