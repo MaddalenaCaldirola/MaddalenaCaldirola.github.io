@@ -57,8 +57,6 @@ p {
   text-align: center;
   padding-top: 16px; 
   padding-bottom: 16px; 
-  padding-left: 240px; 
-  padding-right: 240px; 
 }
 
 html {
@@ -205,7 +203,7 @@ html {
   justify-content: center;
   align-items: center;
 }
-
+	
 /*social*/
 .social-container{
   background: white;
@@ -268,6 +266,10 @@ html {
   padding: 30px 20px;
   text-align: center;
   font-size: 18px;
+}
+
+.card-body p {
+  padding: 16px; 
 }
 
 .card-body .btn {
@@ -375,6 +377,10 @@ p {
   .card {
     min-width: 300px;
   }
+
+.card-body p {
+  padding: 16px; 
+}
 
 }
 
