@@ -487,6 +487,11 @@ p {
   margin-bottom: 32px;
 }
 
+.works-heading p {
+  padding-left: 30px;
+  padding-right: 30px;
+ }
+
 .row {
   display: flex; 
   align-items: center;
@@ -548,6 +553,11 @@ p {
   padding-bottom: 40px; 
   width:100%; 
 }
+
+.contacts-container p {
+  padding-left: 30px;
+  padding-right: 30px;
+ }
 
 /*back-to-top-button*/
 .float{
