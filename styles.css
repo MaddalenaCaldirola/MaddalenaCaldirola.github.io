@@ -130,7 +130,10 @@ html {
 
 @media screen and (max-width: 960px){
 
-
+body {
+  overflow:hidden;
+}
+	
   .nav-links{
     display: none;
   }
