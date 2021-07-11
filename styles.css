@@ -434,12 +434,14 @@ p {
 .header-container {
    padding-top: 40px; 
    padding-bottom: 40px; 
+   width:100%; 
 }
 
 /*foto*/
 .foto-container {
    padding-top: 60px; 
    padding-bottom: 60px; 
+   width:100%; 
 }
 	
 .foto {
@@ -450,17 +452,15 @@ p {
 .presentation-container{
   padding-top: 60px; 
   padding-bottom: 15px; 
+  width:100%; 
 }
 
-.presentation-container p {
- padding-left: 16px; 
- padding-right: 16px; 
-}
 
 /*social*/
 .social-container{
   padding-top: 15px;
   padding-bottom: 60px; 
+  width:100%; 
 }
 
 .social-container a:active {
@@ -485,6 +485,7 @@ p {
 .row {
   display: flex; 
   align-items: center;
+  justify-content: center; 
   padding: 0; 
   flex-wrap: nowrap; 
   flex-direction: column;
@@ -540,6 +541,7 @@ p {
 .contacts-container{
   padding-top: 60px;
   padding-bottom: 40px; 
+  width:100%; 
 }
 
 /*back-to-top-button*/
