@@ -229,9 +229,6 @@ html {
   padding-top:92px;
   padding-bottom: 18px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .works-heading {
