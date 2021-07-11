@@ -207,7 +207,11 @@ html {
   justify-content: center;
   align-items: center;
 }
-	
+.presentation-container p{
+   padding-left: 240px; 
+   padding-right: 240px; 
+}
+
 /*social*/
 .social-container{
   background: white;
