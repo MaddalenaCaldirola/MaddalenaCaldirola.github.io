@@ -55,10 +55,7 @@ p {
   font-size: 18px;
   line-height: 1.8em;
   text-align: center;
-  padding-top: 16px;
-  padding-left: 16px; 
-  padding-left: 240px;
-  padding-right: 240px;
+  padding: 16px; 
 }
 
 html {
