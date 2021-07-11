@@ -302,6 +302,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column; 
 }
 
 /*back-to-top-button*/
@@ -314,9 +315,9 @@ html {
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
-  background: #56AE8B 0%;
-  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
-  padding: 8px;
+        background: #56AE8B 0%;
+        box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+        padding: 8px;
 }
 
 .my-float{
@@ -357,30 +358,14 @@ html {
       object-fit:cover;
   }
 	
-  /*presentation*/
-  .presentation-container{
-    padding-left: 60px;
-    padding-right: 60px;
-  }
 
   /*works*/
-  .works-container{
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-
   .row {
     align-items: center;
   }
   
   .card {
     min-width: 300px;
-  }
-
-  /*contacts*/
-  .contacts-container{
-    padding-left: 60px;
-    padding-right: 60px;
   }
 
 }
@@ -422,11 +407,6 @@ p {
 .header-container {
    padding-top: 40px; 
    padding-bottom: 40px; 
-   width:100%;
-   display:flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
 }
 
 /*foto*/
@@ -440,17 +420,14 @@ p {
 
 /*presentation*/
 .presentation-container{
-  padding: 60px 40px 15px; 
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-top: 60px; 
+  padding-bottom: 15px; 
 }
 
 /*social*/
 .social-container{
-  padding: 15px 40px 60px; 
-  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 60px; 
 }
 
 .social-container a:active {
@@ -461,12 +438,8 @@ p {
 
 /*works*/
 .works-container {
-  padding: 60px 30px; 
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 30px; 
 }
 
 .works-heading {
@@ -530,9 +503,8 @@ p {
 
 /*contacts*/
 .contacts-container{
-  background: white;
-  padding: 60px 40px; 
-  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 40px; 
 }
 
 /*back-to-top-button*/
