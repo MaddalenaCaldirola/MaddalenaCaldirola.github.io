@@ -88,12 +88,14 @@ html {
   color: white;
   text-decoration: none;
   font-size: 15px;
-  padding: 18px 16px;
+  padding: 16px 16px;
 }
 
 .nav-links a:hover {
     color: black;
     background-color:#EFEFEF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
 }
 
 
@@ -144,6 +146,7 @@ html {
 
   .dropdown-content a:hover {
     background-color: #EFEFEF;
+    color: black;
   }
 
 }
