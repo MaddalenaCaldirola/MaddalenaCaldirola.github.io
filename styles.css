@@ -128,6 +128,29 @@ html {
   margin: 5px;
 }
 
+@media screen and (max-width: 960px){
+
+
+  .nav-links{
+    display: none;
+  }
+
+  .dropdown {
+    display: inline-block;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #EFEFEF;
+  }
+
+}
+
+
+
 /*barra*/
 .barra {
   padding-top: 54px;
@@ -309,22 +332,6 @@ html {
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
-  /*nav*/
-   .nav-links{
-    display: none;
-  }
-
-  .dropdown {
-    display: inline-block;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: flex;
-  }
-
-  .dropdown-content a:hover {
-    background-color: #EFEFEF;
-  }
 
   /*barra*/
   .responsive {
@@ -393,24 +400,6 @@ p {
       height: 100px; 
       object-fit:cover; 
   }
-
-/*nav*/
-  .nav-links{
-    display: none;
-  }
-
-  .dropdown {
-    display: inline-block;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: flex;
-  }
-
-  .dropdown-content a:hover {
-    background-color: #EFEFEF;
-  }
-
 
 /*header*/
 .header-container {
