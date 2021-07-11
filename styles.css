@@ -421,8 +421,6 @@ h3 {
 
 p {
   font-size: 14px;
-  padding-left: 26px;
-  padding-right: 26px;
  }
 	
  /*barra*/
@@ -457,6 +455,11 @@ p {
   min-width:320px; 
 }
 
+.presentation-content {
+  margin-right: 26px; 
+  margin-left: 26px; 
+}
+
 /*social*/
 .social-container{
   padding-top: 15px;
@@ -481,6 +484,8 @@ p {
   text-align: center;
   color:white;
   margin-bottom: 32px;
+  margin-right: 26px; 
+  margin-left: 26px; 
 }
 
 .row {
@@ -543,6 +548,8 @@ p {
   padding-top: 60px;
   padding-bottom: 40px; 
   width:100%; 
+  margin-right: 26px; 
+  margin-left: 26px; 
 }
 
 /*back-to-top-button*/
