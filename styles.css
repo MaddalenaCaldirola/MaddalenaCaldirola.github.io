@@ -408,6 +408,10 @@ p {
    padding-top: 40px; 
    padding-bottom: 40px; 
    width:100%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 }
 
 /*foto*/
@@ -422,7 +426,10 @@ p {
 /*presentation*/
 .presentation-container{
   padding: 60px 40px 15px; 
-  width: 100%
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*social*/
@@ -440,7 +447,11 @@ p {
 /*works*/
 .works-container {
   padding: 60px 30px; 
-  width: 100%
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .works-heading {
