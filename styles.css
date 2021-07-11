@@ -163,11 +163,17 @@ html {
   min-height: auto;
 }
 
+
 /*header*/
 .header-container {
    background-color: white;
    padding-top: 128px;
    padding-bottom: 128px;
+   width:100%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
 }
 
 /*foto*/
@@ -176,7 +182,6 @@ html {
    display: flex;
    align-items: center;
    justify-content: center;
-   padding: 64px;
 }
 
 .foto {
@@ -192,8 +197,10 @@ html {
   background: white;
   padding-top:92px;
   padding-bottom: 18px;
-  padding-left: 240px;
-  padding-right: 240px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*social*/
@@ -201,8 +208,6 @@ html {
   background: white;
   padding-top:16px;
   padding-bottom: 92px;
-  padding-left: 240px;
-  padding-right: 240px;
   display: flex;
   align-items: center;
   justify-content:center;
@@ -223,6 +228,11 @@ html {
   background: #56AE8B;
   padding-top:92px;
   padding-bottom: 18px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .works-heading {
@@ -286,7 +296,12 @@ html {
 /*contacts*/
 .contacts-container{
   background: white;
-  padding:92px 240px;
+  padding-top:92px;
+  padding-bottom: 92px; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*back-to-top-button*/
