@@ -185,6 +185,8 @@ html {
    display: flex;
    align-items: center;
    justify-content: center;
+   padding-top: 64px; 
+   padding-bottom: 64px; 
 }
 
 .foto {
@@ -434,7 +436,8 @@ p {
 
 /*foto*/
 .foto-container {
-   padding: 60p 40px;
+   padding-top: 60px; 
+   padding-bottom: 60px; 
 }
 	
 .foto {
