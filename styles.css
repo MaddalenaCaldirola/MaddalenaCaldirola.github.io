@@ -455,9 +455,9 @@ p {
   min-width:320px; 
 }
 	
-.presentation-container p {
-  padding-left: 20px;
-  padding-right: 20px;
+.presentation-content p {
+  padding-left: 30px;
+  padding-right: 30px;
  }
 
 
