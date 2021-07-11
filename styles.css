@@ -357,7 +357,7 @@ html {
 
 
 /* Tablet Styles */
-@media only screen and (min-width: 415px) and (max-width: 960px) {
+@media only screen and (min-width: 401px) and (max-width: 960px) {
 
 h1 h2 h3 h4 {
   padding-left: 120px;
@@ -455,10 +455,6 @@ p {
   min-width:320px; 
 }
 
-.presentation-container p {
-  padding-left: 26px;
-  padding-right: 26px;
- }
 
 /*social*/
 .social-container{
