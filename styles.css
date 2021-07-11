@@ -452,6 +452,11 @@ p {
   padding-bottom: 15px; 
 }
 
+.presentation-container p {
+ padding-left: 16px; 
+ padding-right: 16px; 
+}
+
 /*social*/
 .social-container{
   padding-top: 15px;
