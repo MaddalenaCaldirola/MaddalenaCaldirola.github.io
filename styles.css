@@ -222,7 +222,6 @@ html {
 }
 
 .social-container a:hover {
-  filter: drop-shadow(4px 4px 2px #56AE8B);
   transform: scale(1.05);
 }
 
